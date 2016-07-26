@@ -25,7 +25,7 @@ const (
 	Version        = "3.0.5"
 	CloudDir       = "cloud"
 	HostingDir     = "public"
-	DefaultBaseURL = "http://localhost:1337/"
+	DefaultBaseURL = "https://cloud.ilhasoft.mobi/"
 	// DefaultBaseURL = "https://api.parse.com/1/"
 )
 
