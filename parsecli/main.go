@@ -25,7 +25,8 @@ const (
 	Version        = "3.0.5"
 	CloudDir       = "cloud"
 	HostingDir     = "public"
-	DefaultBaseURL = "https://api.parse.com/1/"
+	DefaultBaseURL = "http://localhost:1337/"
+	// DefaultBaseURL = "https://api.parse.com/1/"
 )
 
 var UserAgent = fmt.Sprintf("parse-cli-%s-%s", runtime.GOOS, Version)
